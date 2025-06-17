@@ -1,185 +1,189 @@
 const config = {
   "modalQuestions": [
     {
-      "id": "agent_status",
-      "questionText": "Are you currently exploring homes with a real estate agent?",
+      "id": "leisure_time",
+      "questionText": "How do you prefer to spend your leisure time on weekends?",
       "options": [
-        { "value": "committed", "text": "Yes, I'm committed to an agent." },
-        { "value": "not_committed", "text": "No, I'm not committed to an agent." },
-        { "value": "gathering_info", "text": "Just gathering information at this stage." }
+        { "value": "golf", "text": "Playing a round of golf" },
+        { "value": "dining", "text": "Exploring new restaurants and dining experiences" },
+        { "value": "relaxing", "text": "Relaxing at home or spending time with family" },
+        { "value": "outdoor_activities", "text": "Engaging in other outdoor activities" }
       ]
     },
     {
-      "id": "interest_level",
-      "questionText": "How interested are you in properties like this?",
+      "id": "living_situation",
+      "questionText": "Which of the following best describes your current living situation?",
       "options": [
-        { "value": "very_interested", "text": "Very interested, actively looking." },
-        { "value": "somewhat_interested", "text": "Somewhat interested, keeping options open." },
-        { "value": "just_browsing", "text": "Just browsing for now." }
+        { "value": "renting", "text": "Renting an apartment or townhouse" },
+        { "value": "upgrading", "text": "Owning a home but considering upgrading" },
+        { "value": "retired_downsizing", "text": "Recently retired and downsizing" },
+        { "value": "content", "text": "Content with current home, no plans to move" }
       ]
     },
     {
-      "id": "neighborhood_engagement",
-      "questionText": "How do you usually enjoy the neighborhood?",
+      "id": "event_participation",
+      "questionText": "How often do you visit or participate in events at golf clubs or similar communities?",
       "options": [
-        { "value": "resident_explorer", "text": "I live here and love exploring locally." },
-        { "value": "considering_move", "text": "I'm considering moving to this area." },
-        { "value": "just_visiting", "text": "Just visiting for the open house." }
+        { "value": "member_regular", "text": "Regularly, I’m a member at a club" },
+        { "value": "occasionally", "text": "Occasionally, for casual games or events" },
+        { "value": "rarely_interested", "text": "Rarely, but I’m interested in becoming more involved" },
+        { "value": "never", "text": "Never, it's not in my current interests" }
       ]
     },
     {
-      "id": "feature_attraction",
-      "questionText": "What feature attracted you to this home?",
+      "id": "community_amenities",
+      "questionText": "Which amenities are most important to you when considering a community to live in?",
       "options": [
-        { "value": "design_layout", "text": "The design and layout." },
-        { "value": "location_neighborhood", "text": "The location and neighborhood." },
-        { "value": "home_price", "text": "The price of the home." }
+        { "value": "recreational_facilities", "text": "Proximity to recreational facilities like golf or sports clubs" },
+        { "value": "fine_dining_social", "text": "Access to fine dining and social events" },
+        { "value": "community_activities", "text": "Community activities and family-friendly environments" },
+        { "value": "quiet_residential", "text": "Quiet and scenic residential areas" }
       ]
     }
   ],
- "giveaway": {
-    "name": "Burger Jabs Feast",
-    "heroHeadline": "Win a <span class='highlight'>$100 Burger Feast</span> at Burger Jabs!",
-    "heroSubheadline": "Enter for a chance to indulge in a $100 meal at Burger Jabs—where family, flavor, and community come together!",
-    "promotionDates": "Promotion runs from May 9, 2025 until June 9, 2025.",
-    "endDate": "2025-07-09T23:59:59",
-    "heroBackgroundImageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1990&q=80",
-    "heroCtaText": "Enter Now for a Feast!",
+  "giveaway": {
+    "name": "eQuinelle Golf & Dine Giveaway",
+    "heroHeadline": "Unwind in Style: Golf & Dine Giveaway",
+    "heroSubheadline": "Imagine the perfect day: Golfing at the stunning eQuinelle Golf Club, followed by a gourmet dinner at The Fireside. Enter for your chance to win!",
+    "promotionDates": "Promotion starts June 9, 2025 and ends June 25, 2025. Winner announced June 27, 2025.",
+    "endDate": "2025-06-25T23:59:59",
+    "heroBackgroundImageUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/wj3d4rwrjhrma0cqfeca1asw74.jpg",
+    "heroCtaText": "Enter Now and Win!",
     "entryFormCtaText": "Count Me In!",
-    "successModalHeaderText": "🎉 You're In! 🎉",
-    "successModalMainMessage": "Your entry for the <strong>Burger Jabs $100 Feast Giveaway</strong> has been successfully submitted. Best of luck!",
-    "successModalEmailPrompt": "We'll announce the winner via email after the draw date. Keep an eye on your inbox!"
+    "successModalHeaderText": "🎉 You're Entered! 🎉",
+    "successModalMainMessage": "Your entry for the <strong>eQuinelle Golf & Dine Giveaway</strong> has been successfully submitted. Good luck!",
+    "successModalEmailPrompt": "Winner will be announced by email on June 27, 2025. Keep an eye on your inbox!"
   },
   "prize": {
-    "name": "Burger Jabs $100 Family Feast Voucher",
-    "value": "$100 Value",
-    "description": "Get ready to treat your family (or yourself!) to an unforgettable meal. You're entering for a chance to win a $100 gift voucher to enjoy juicy burgers, crispy fries, refreshing drinks, and more at Burger Jabs—the newest local hotspot that brings community and incredible flavor together under one roof.",
+    "name": "Golf & Dine Experience Package",
+    "value": "$350 Value",
+    "description": "Win a full 18-hole round of golf including a cart for you and a friend, plus a cozy dinner for two at The Fireside Restaurant in the beautiful eQuinelle community. Enjoy an unforgettable luxury day combining sport, relaxation, and fine dining.",
     "images": [
       {
-        "src": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80",
-        "alt": "Delicious Burger Combo"
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/bjyewy5j91rme0cqfec9tvtc5w.jpg",
+        "alt": "eQuinelle Golf Course View"
       },
       {
-        "src": "https://images.unsplash.com/photo-1606131731446-5568087118aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80",
-        "alt": "Another view of burgers"
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/rtr8sfy93xrm80cqfec8sjq6nw.jpg",
+        "alt": "Dinner at The Fireside Restaurant"
       },
       {
-        "src": "https://images.unsplash.com/photo-1550317138-10000687a72b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-        "alt": "Fries and Burger"
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/v8ngh8f1cxrmc0cqfec89n4z9c.jpg",
+        "alt": "Golfing at eQuinelle"
+      },
+      {
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/tq9afaztnxrme0cqfec9hw3z0g.jpg",
+        "alt": "The Fireside Restaurant ambiance"
       }
     ],
     "includedItems": [
-      { "icon": "fas fa-ticket-alt", "text": "Exclusive $100 gift voucher for anything on the menu" },
-      { "icon": "fas fa-users", "text": "Perfect for a family feast or a treat with friends" },
-      { "icon": "fas fa-store-alt", "text": "Support a fantastic local business: Burger Jabs" },
-      { "icon": "fas fa-check-circle", "text": "No purchase necessary to enter or win" },
-      { "icon": "fas fa-bolt", "text": "Quick and easy online entry!" }
+      { "icon": "fas fa-golf-ball", "text": "18 holes of golf for two including cart" },
+      { "icon": "fas fa-utensils", "text": "Gourmet dinner for two at The Fireside" },
+      { "icon": "fas fa-map-marker-alt", "text": "Experience the scenic eQuinelle community" },
+      { "icon": "fas fa-calendar-alt", "text": "Valid on any day until 4 PM" },
+      { "icon": "fas fa-lock", "text": "No purchase necessary to enter or win" }
     ],
-    "limitedTimeOfferText": "🎁 Limited Time Giveaway!",
+    "limitedTimeOfferText": " Limited Time Offer!",
     "ctaButtonText": "I WANT TO WIN THIS!"
   },
-  "howToEnter": { //Do Not Change
-    "steps": [ //Do Not Change
+  "howToEnter": {
+    "steps": [
       {
         "icon": "fas fa-keyboard",
         "title": "Fill the Form",
-        "description": "Simply enter your name and email address in the form below. It takes less than 30 seconds!"//Do Not Change
+        "description": "Enter your name and email below. It only takes a moment!"
       },
       {
         "icon": "fas fa-share-alt",
         "title": "Share (Optional)",
-        "description": "Spread the word on social media using the links after you enter. (Sharing is caring, but not required for entry!)" //Do Not Change
+        "description": "Share on social media after you enter to spread the word."
       },
       {
         "icon": "fas fa-envelope-open-text",
         "title": "Check Your Email",
-        "description": "We'll contact the winner via email. Make sure you enter a valid email address and check your spam folder too!" //Do Not Change
+        "description": "Watch for an email from us with winner details. Check spam too!"
       }
     ],
     "highlights": [
       { "icon": "fas fa-stopwatch", "text": "Quick & Easy Entry" },
-      { "icon": "fas fa-gift", "text": "Amazing $100 Prize" },
+      { "icon": "fas fa-gift", "text": "$350 Luxury Prize" },
       { "icon": "fas fa-smile", "text": "Free to Enter!" }
     ]
   },
   "entryForm": {
-    "subtitle": "Provide your details below for a chance to win this delicious prize!",
-    "entryCountText": "Over 500+ entries already! Don't miss out!",
-    "socialSharePrompt": "Tell your friends about this awesome giveaway:",
+    "subtitle": "Provide your details below for a chance to win this exclusive golf and dining experience!",
+    "entryCountText": "Join over 1000+ participants already entered!",
+    "socialSharePrompt": "Tell your friends about this amazing giveaway:",
     "sharePlatforms": {
       "facebook": "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(window.location.href),
-      "twitter": "https://twitter.com/intent/tweet?url=" + encodeURIComponent(window.location.href) + "&text=" + encodeURIComponent("Check out this amazing Burger Jabs giveaway!")
-    },
+      "twitter": "https://twitter.com/intent/tweet?url=" + encodeURIComponent(window.location.href) + "&text=" + encodeURIComponent("Enter now to win the eQuinelle Golf & Dine Giveaway!")
+    }
   },
   "rules": {
     "fairSelectionInfo": {
-      "title": "Fair & Square Selection",
-      "text": "Our winner selection process is completely random and unbiased, ensuring everyone has an equal chance. The draw will be conducted using a certified random number generator."
+      "title": "Fair & Transparent Selection",
+      "text": "Our winner will be chosen randomly using a certified random number generator to ensure fairness for all entrants."
     },
     "importantNotice": {
-      "title": "Winner Notification - Check Your Email!",
-      "text": "The lucky winner will be contacted exclusively via the email address provided during entry. Please ensure your email is correct. We recommend checking your inbox, promotions tab, and spam/junk folder regularly after the giveaway concludes."
+      "title": "Winner Notification",
+      "text": "The winner will be contacted by email only, so please ensure your contact details are accurate and check your inbox and spam folders regularly after the draw."
     },
     "faq": [
       {
         "q": "Who is eligible to enter?",
-        "a": "This giveaway is open to legal residents of [Your City/Region/Country] who are 18 years of age or older at the time of entry."
+        "a": "Open to legal residents aged 18+ of the region."
       },
       {
-        "q": "How long does the giveaway run?",
-        "a": "The giveaway starts on May 9, 2025, and all entries must be received by June 9, 2025, at 11:59 PM [Your Timezone]."
+        "q": "When does the giveaway end?",
+        "a": "Entry closes June 25, 2025 at 11:59 PM."
       },
       {
-        "q": "How will the winner be selected?",
-        "a": "One (1) winner will be selected in a random drawing from all eligible entries received during the promotion period."
+        "q": "How will the winner be announced?",
+        "a": "Winner will be announced on June 27, 2025 via email."
       },
       {
-        "q": "When and how will the winner be notified?",
-        "a": "The potential winner will be notified by email on or about June 12, 2025. They will have [e.g., 48 hours] to respond and claim their prize."
-      },
-      {
-        "q": "How many times can I enter?",
-        "a": "Limit one (1) entry per person/email address during the entire promotion period. Duplicate entries will be disqualified."
+        "q": "Can I enter more than once?",
+        "a": "One entry per person. Multiple entries will be disqualified."
       },
       {
         "q": "Is my information secure?",
-        "a": "We respect your privacy. Your information will be used solely for the purpose of this giveaway and in accordance with our Privacy Policy. We do not sell your data."
+        "a": "We respect your privacy and only use your data for this giveaway following our Privacy Policy."
       }
     ],
     "tips": [
-      "Double-check your email address for typos before submitting.",
-      "Add our contact email (if provided in footer) to your address book to ensure you receive notifications.",
-      "Follow [Organizer Name] on social media for winner announcements (optional)."
+      "Make sure your email is correct before submitting.",
+      "Add our contact email to your address book to avoid missing notifications.",
+      "Follow Driscoll-Peca Team on social media for updates and winner announcement."
     ]
   },
   "footerContact": {
-    "organizerName": "Burger Jabs Restaurant",
-    "organizerLogoUrl": "https://via.placeholder.com/200x60/FF7A00/4A3F35?text=Burger+Jabs",
-    "email": "hello@burgerjabs.com",
-    "phone": "(555) 123-BURGER",
-    "address": "123 Delicious Lane, Foodie Town, USA",
+    "organizerName": "Driscoll-Peca Team",
+    "organizerLogoUrl": "",
+    "email": "amber@driscollpeca.com",
+    "phone": "6138160326",
+    "address": "218 Brant Avenue\nBrantford ON N3T 3H9",
     "social": {
-      "facebook": "",
-      "instagram": ""
+      "facebook": "https://www.facebook.com/driscollpecateam",
+      "instagram": "https://instagram.com/ae.parks"
     },
-    "copyrightOwner": "Burger Jabs Co."
+    "copyrightOwner": "Driscoll-Peca Team"
   },
   "meta": {
-    "pageTitle": "Burger Jabs $100 Feast Giveaway!",
-    "navBrandLogoText": "Burger Jabs",
-    "privacyPolicyLink": "",
+    "pageTitle": "eQuinelle Golf & Dine Giveaway!",
+    "navBrandLogoText": "eQuinelle Giveaway",
+    "privacyPolicyLink": "https://driscollpeca.com/privacy.html"
   },
   "settings": {
     "ghlWebhookUrl": "",
     "theme": "dark",
-    "confettiColors": ["#FF7A00", "#FFC107", "#4CAF50", "#FFFFFF", "#FFF5E6"],
+    "confettiColors": ["#006633", "#66cc33", "#005522", "#b3ff66", "#334400"],
     "showCountdownInHero": true
   },
   "deploymentInfo": {
-    "repoName": "openhouse",
-    "repoUrl": "https://github.com/arslvn93/openhouse",
-    "tag": "Open House 168 Abbey",
-    "netlifyUrl": "https://openhousetester.netlify.app/",
-    "netlifyId": "547dc1ef-2c83-4d08-815f-344d40fc3ca2"
+    "repoName": "Giveaway-377",
+    "repoUrl": "https://github.com/arslvn93/Giveaway-377",
+    "tag": "eQuinelle Golf & Dine",
+    "netlifyUrl": "http://Giveaway-377.netlify.app",
+    "netlifyId": "1003333839"
   }
 };
