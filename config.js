@@ -1,52 +1,10 @@
 const config = {
-  "modalQuestions": [
-    {
-      "id": "leisure_time",
-      "questionText": "How do you prefer to spend your leisure time on weekends?",
-      "options": [
-        { "value": "golf", "text": "Playing a round of golf" },
-        { "value": "dining", "text": "Exploring new restaurants and dining experiences" },
-        { "value": "relaxing", "text": "Relaxing at home or spending time with family" },
-        { "value": "outdoor_activities", "text": "Engaging in other outdoor activities" }
-      ]
-    },
-    {
-      "id": "living_situation",
-      "questionText": "Which of the following best describes your current living situation?",
-      "options": [
-        { "value": "renting", "text": "Renting an apartment or townhouse" },
-        { "value": "upgrading", "text": "Owning a home but considering upgrading" },
-        { "value": "retired_downsizing", "text": "Recently retired and downsizing" },
-        { "value": "content", "text": "Content with current home, no plans to move" }
-      ]
-    },
-    {
-      "id": "event_participation",
-      "questionText": "How often do you visit or participate in events at golf clubs or similar communities?",
-      "options": [
-        { "value": "member_regular", "text": "Regularly, I’m a member at a club" },
-        { "value": "occasionally", "text": "Occasionally, for casual games or events" },
-        { "value": "rarely_interested", "text": "Rarely, but I’m interested in becoming more involved" },
-        { "value": "never", "text": "Never, it's not in my current interests" }
-      ]
-    },
-    {
-      "id": "community_amenities",
-      "questionText": "Which amenities are most important to you when considering a community to live in?",
-      "options": [
-        { "value": "recreational_facilities", "text": "Proximity to recreational facilities like golf or sports clubs" },
-        { "value": "fine_dining_social", "text": "Access to fine dining and social events" },
-        { "value": "community_activities", "text": "Community activities and family-friendly environments" },
-        { "value": "quiet_residential", "text": "Quiet and scenic residential areas" }
-      ]
-    }
-  ],
   "giveaway": {
     "name": "eQuinelle Golf & Dine Giveaway",
     "heroHeadline": "Unwind in Style: Golf & Dine Giveaway",
     "heroSubheadline": "Imagine the perfect day: Golfing at the stunning eQuinelle Golf Club, followed by a gourmet dinner at The Fireside. Enter for your chance to win!",
     "promotionDates": "Promotion starts June 9, 2025 and ends June 25, 2025. Winner announced June 27, 2025.",
-    "endDate": "2025-06-25T23:59:59",
+    "endDate": "2025-06-26T03:59:00.000Z",
     "heroBackgroundImageUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/wj3d4rwrjhrma0cqfeca1asw74.jpg",
     "heroCtaText": "Enter Now and Win!",
     "entryFormCtaText": "Count Me In!",
@@ -55,9 +13,6 @@ const config = {
     "successModalEmailPrompt": "Winner will be announced by email on June 27, 2025. Keep an eye on your inbox!"
   },
   "prize": {
-    "name": "Golf & Dine Experience Package",
-    "value": "$350 Value",
-    "description": "Win a full 18-hole round of golf including a cart for you and a friend, plus a cozy dinner for two at The Fireside Restaurant in the beautiful eQuinelle community. Enjoy an unforgettable luxury day combining sport, relaxation, and fine dining.",
     "images": [
       {
         "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/bjyewy5j91rme0cqfec9tvtc5w.jpg",
@@ -77,13 +32,31 @@ const config = {
       }
     ],
     "includedItems": [
-      { "icon": "fas fa-golf-ball", "text": "18 holes of golf for two including cart" },
-      { "icon": "fas fa-utensils", "text": "Gourmet dinner for two at The Fireside" },
-      { "icon": "fas fa-map-marker-alt", "text": "Experience the scenic eQuinelle community" },
-      { "icon": "fas fa-calendar-alt", "text": "Valid on any day until 4 PM" },
-      { "icon": "fas fa-lock", "text": "No purchase necessary to enter or win" }
+      {
+        "icon": "fas fa-golf-ball",
+        "text": "18 holes of golf for two including cart"
+      },
+      {
+        "icon": "fas fa-utensils",
+        "text": "Gourmet dinner for two at The Fireside"
+      },
+      {
+        "icon": "fas fa-map-marker-alt",
+        "text": "Experience the scenic eQuinelle community"
+      },
+      {
+        "icon": "fas fa-calendar-alt",
+        "text": "Valid on any day until 4 PM"
+      },
+      {
+        "icon": "fas fa-lock",
+        "text": "No purchase necessary to enter or win"
+      }
     ],
-    "limitedTimeOfferText": " Limited Time Offer!",
+    "name": "Golf & Dine Experience Package",
+    "value": "$350 Value",
+    "description": "Win a full 18-hole round of golf including a cart for you and a friend, plus a cozy dinner for two at The Fireside Restaurant in the beautiful eQuinelle community. Enjoy an unforgettable luxury day combining sport, relaxation, and fine dining.",
+    "limitedTimeOfferText": "\u001f\u001f Limited Time Offer!",
     "ctaButtonText": "I WANT TO WIN THIS!"
   },
   "howToEnter": {
@@ -105,29 +78,30 @@ const config = {
       }
     ],
     "highlights": [
-      { "icon": "fas fa-stopwatch", "text": "Quick & Easy Entry" },
-      { "icon": "fas fa-gift", "text": "$350 Luxury Prize" },
-      { "icon": "fas fa-smile", "text": "Free to Enter!" }
+      {
+        "icon": "fas fa-stopwatch",
+        "text": "Quick & Easy Entry"
+      },
+      {
+        "icon": "fas fa-gift",
+        "text": "$350 Luxury Prize"
+      },
+      {
+        "icon": "fas fa-smile",
+        "text": "Free to Enter!"
+      }
     ]
   },
   "entryForm": {
+    "sharePlatforms": {
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgiveaway-377.netlify.app%2Fadmin",
+      "twitter": "https://twitter.com/intent/tweet?url=https%3A%2F%2Fgiveaway-377.netlify.app%2Fadmin&text=Enter%20now%20to%20win%20the%20eQuinelle%20Golf%20%26%20Dine%20Giveaway!"
+    },
     "subtitle": "Provide your details below for a chance to win this exclusive golf and dining experience!",
     "entryCountText": "Join over 1000+ participants already entered!",
-    "socialSharePrompt": "Tell your friends about this amazing giveaway:",
-    "sharePlatforms": {
-      "facebook": "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(window.location.href),
-      "twitter": "https://twitter.com/intent/tweet?url=" + encodeURIComponent(window.location.href) + "&text=" + encodeURIComponent("Enter now to win the eQuinelle Golf & Dine Giveaway!")
-    }
+    "socialSharePrompt": "Tell your friends about this amazing giveaway:"
   },
   "rules": {
-    "fairSelectionInfo": {
-      "title": "Fair & Transparent Selection",
-      "text": "Our winner will be chosen randomly using a certified random number generator to ensure fairness for all entrants."
-    },
-    "importantNotice": {
-      "title": "Winner Notification",
-      "text": "The winner will be contacted by email only, so please ensure your contact details are accurate and check your inbox and spam folders regularly after the draw."
-    },
     "faq": [
       {
         "q": "Who is eligible to enter?",
@@ -154,18 +128,26 @@ const config = {
       "Make sure your email is correct before submitting.",
       "Add our contact email to your address book to avoid missing notifications.",
       "Follow Driscoll-Peca Team on social media for updates and winner announcement."
-    ]
+    ],
+    "fairSelectionInfo": {
+      "title": "Fair & Transparent Selection",
+      "text": "Our winner will be chosen randomly using a certified random number generator to ensure fairness for all entrants."
+    },
+    "importantNotice": {
+      "title": "Winner Notification",
+      "text": "The winner will be contacted by email only, so please ensure your contact details are accurate and check your inbox and spam folders regularly after the draw."
+    }
   },
   "footerContact": {
-    "organizerName": "Driscoll-Peca Team",
-    "organizerLogoUrl": "",
-    "email": "amber@driscollpeca.com",
-    "phone": "6138160326",
-    "address": "218 Brant Avenue\nBrantford ON N3T 3H9",
     "social": {
       "facebook": "https://www.facebook.com/driscollpecateam",
       "instagram": "https://instagram.com/ae.parks"
     },
+    "organizerName": "Driscoll-Peca Team",
+    "organizerLogoUrl": "",
+    "email": "amber@driscollpeca.com",
+    "phone": "6138160326",
+    "address": "218 Brant AvenueBrantford ON N3T 3H9",
     "copyrightOwner": "Driscoll-Peca Team"
   },
   "meta": {
@@ -174,9 +156,16 @@ const config = {
     "privacyPolicyLink": "https://driscollpeca.com/privacy.html"
   },
   "settings": {
+    "confettiColors": [
+      "#006633",
+      "#66cc33",
+      "#005522",
+      "#b3ff66",
+      "#334400"
+    ],
     "ghlWebhookUrl": "",
-    "theme": "dark",
-    "confettiColors": ["#006633", "#66cc33", "#005522", "#b3ff66", "#334400"],
+    "theme": "pastel",
+    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate",
     "showCountdownInHero": true
   },
   "deploymentInfo": {
@@ -185,5 +174,95 @@ const config = {
     "tag": "eQuinelle Golf & Dine",
     "netlifyUrl": "http://Giveaway-377.netlify.app",
     "netlifyId": "1003333839"
-  }
+  },
+  "modalQuestions": [
+    {
+      "id": "q_auto_1750125492575_0",
+      "questionText": "How do you prefer to spend your leisure time on weekends?",
+      "options": [
+        {
+          "value": "Playing a round of golf",
+          "text": "Playing a round of golf"
+        },
+        {
+          "value": "Exploring new restaurants and dining experiences",
+          "text": "Exploring new restaurants and dining experiences"
+        },
+        {
+          "value": "Relaxing at home or spending time with family",
+          "text": "Relaxing at home or spending time with family"
+        },
+        {
+          "value": "Engaging in other outdoor activities",
+          "text": "Engaging in other outdoor activities"
+        }
+      ]
+    },
+    {
+      "id": "q_auto_1750125492575_1",
+      "questionText": "Which of the following best describes your current living situation?",
+      "options": [
+        {
+          "value": "Renting an apartment or townhouse",
+          "text": "Renting an apartment or townhouse"
+        },
+        {
+          "value": "Owning a home but considering upgrading",
+          "text": "Owning a home but considering upgrading"
+        },
+        {
+          "value": "Recently retired and downsizing",
+          "text": "Recently retired and downsizing"
+        },
+        {
+          "value": "Content with current home, no plans to move",
+          "text": "Content with current home, no plans to move"
+        }
+      ]
+    },
+    {
+      "id": "q_auto_1750125492575_2",
+      "questionText": "How often do you visit or participate in events at golf clubs or similar communities?",
+      "options": [
+        {
+          "value": "Regularly, I’m a member at a club",
+          "text": "Regularly, I’m a member at a club"
+        },
+        {
+          "value": "Occasionally, for casual games or events",
+          "text": "Occasionally, for casual games or events"
+        },
+        {
+          "value": "Rarely, but I’m interested in becoming more involved",
+          "text": "Rarely, but I’m interested in becoming more involved"
+        },
+        {
+          "value": "Never, it's not in my current interests",
+          "text": "Never, it's not in my current interests"
+        }
+      ]
+    },
+    {
+      "id": "q_auto_1750125492575_3",
+      "questionText": "Which amenities are most important to you when considering a community to live in?",
+      "options": [
+        {
+          "value": "Proximity to recreational facilities like golf or sports clubs",
+          "text": "Proximity to recreational facilities like golf or sports clubs"
+        },
+        {
+          "value": "Access to fine dining and social events",
+          "text": "Access to fine dining and social events"
+        },
+        {
+          "value": "Community activities and family-friendly environments",
+          "text": "Community activities and family-friendly environments"
+        },
+        {
+          "value": "Quiet and scenic residential areas",
+          "text": "Quiet and scenic residential areas"
+        }
+      ]
+    }
+  ]
 };
